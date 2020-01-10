@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+    cout << "Hello Project Euler!" << endl;
+    cout << "Problem # 2" << endl;
+    cout << "Sum of the Fibonacci numbers that are even and less than 4 million" << endl;
 
     int fibonacciSeq[34] = {0};
     int sum =0;
@@ -22,7 +25,7 @@ int main()
             sum = sum + fibonacciSeq[k];
     }
 
-    cout << endl << "the Sum is: " << sum << endl;
+    cout << endl << "the Sum of the even values within that sequence is: " << sum << endl;
 
     return 0;
 }
