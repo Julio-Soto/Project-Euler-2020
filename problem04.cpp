@@ -20,8 +20,9 @@ bool isPalindrome(int testNumber){
 int main(){
     cout << "Hello Project Euler!" << endl;
     cout << "Problem # 4" << endl;
-    
-    int soln,a,b = 0;
+
+    int soln = 0;
+    int a,b = 0;
 
     for(int k = 100; k < 1000; ++k)
         for(int i = 100;i < 1000;++i)
@@ -33,7 +34,7 @@ int main(){
                 }
         }
 
-    
+
     cout << "The Largest Palindrome Product of 3 digit Numbers is: " << a << " x " << b << " = " << soln << endl;
     return 0;
 }
