@@ -12,7 +12,6 @@ bool isPrime(int testNumber){
     return isPrime;
 }
 
-
 int main(){
     cout << "Hello Project Euler!" << endl;
     cout << "Problem # 7" << endl;
